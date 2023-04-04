@@ -14,3 +14,10 @@ top -b -n1 | head -4 >topout2
 #Danach wird der Unterschied zwischen den Dateien angezeigt
 
 diff topout1 topout2 |tee diff.txt
+
+
+read zahl
+
+echo $zahl
+
+echo weee $($zahl + 3)
